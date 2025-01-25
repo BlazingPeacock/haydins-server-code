@@ -69,3 +69,40 @@ body {
     color: #0078d4;
 }
 
+/* Additional styling for About Me */
+.about-me {
+    padding: 2rem;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.resume-iframe {
+    border: 1px solid #ddd;
+    margin-top: 1rem;
+}
+
+.download-button-container {
+    margin-top: 1rem;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #0078d4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #005bb5;
+}
+
+
+
