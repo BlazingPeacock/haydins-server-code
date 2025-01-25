@@ -8,6 +8,11 @@ services:
     ports:
       - "8080:80"
     restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+
+    networks:
+      - app-network
 
   nginx:
     image: nginx:alpine
@@ -19,4 +24,9 @@ services:
     depends_on:
       - react-frontend
     restart: unless-stopped
+    networks:
+      - app-network
 
+networks:
+  app-network:
+    driver: bridge
