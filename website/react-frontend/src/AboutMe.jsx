@@ -4,8 +4,9 @@ const AboutMe = () => (
     <div className="about-me">
         <h2>About Me</h2>
         <p>
-            Hi, I’m Hunter Johnson, a results-driven DevOps engineer with experience in containerization,
-            cloud platforms, and software development. Below is my professional resume.
+            Hi, I’m Hunter Johnson, a DevOps engineer with a wide range of information technology experience from 
+		system administration, cyber security, cloud engineering, DevOps engineering, and software development. 
+		Below is my professional resume.
         </p>
         <object
             data="/HunterJohnson_Resume_2024.pdf"
