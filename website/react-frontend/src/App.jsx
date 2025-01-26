@@ -33,9 +33,12 @@ const App = ({ children }) => {
                  <section className="intro">
                     <h2>Welcome to My DevOps Project</h2>
                     <p>
-                        This project showcases my DevOps skills, including CI/CD architecture, containerization, and secure web hosting.
+                        This project is still in its very early stages but is  meant to showcase my DevOps skills, including CI/CD architecture, containerization, and secure web hosting.
                     </p>
-                    <p>
+		    <p>
+			This website is running on a local machine on my network completely containerized with docker-compose. I am using Cloudflare tunnels to securely connect my local network to the internet allowing for inbound traffic. 
+                    </p>
+		     <p>
                         Explore the <strong>About Me</strong> section for my resume, visit the <strong>Blog</strong> for a project write-up, and don’t forget to sign in at the <strong>Logbook</strong>.
                     </p>
                 </section>

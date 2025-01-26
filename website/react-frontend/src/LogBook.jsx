@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import LogbookTable from './LogbookTable';
 import LogbookForm from './LogbookForm';
+import './Logbook.css';
 
 const LogBook = () => {
     const [entries, setEntries] = useState([]);

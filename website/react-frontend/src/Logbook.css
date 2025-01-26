@@ -1,0 +1,73 @@
+/* Center the entire logbook section */
+div {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Table container */
+.logbook-table-container {
+    margin: 0 auto;
+    width: 80%;
+    overflow-x: auto;
+}
+
+/* Table styling */
+.logbook-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logbook-table th, .logbook-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.logbook-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+/* Row hover effect */
+.logbook-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.logbook-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Form styling */
+.logbook-form {
+    margin-bottom: 1.5rem;
+}
+
+.form-input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.form-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+}

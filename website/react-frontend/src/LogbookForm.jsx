@@ -20,19 +20,21 @@ const LogbookForm = ({ onAddEntry }) => {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="logbook-form">
             <input
                 type="text"
                 placeholder="Name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
+		className="form-input"
             />
             <input
                 type="text"
                 placeholder="Company (optional)"
                 value={company}
                 onChange={(e) => setCompany(e.target.value)}
+		className="form-inpput"
             />
             <button type="submit">Sign Logbook</button>
         </form>
