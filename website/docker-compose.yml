@@ -27,6 +27,27 @@ services:
     networks:
       - app-network
 
+  minecraft:
+    image: itzg/minecraft-server
+    volumes:
+      - minecraftdata:/data
+      - /home/Minecraft/plugins:/plugins
+      - /home/Minecraft/mods:/mods
+    ports:
+      - 25565:25565
+    environments:
+      EULA: "TRUE"
+      TYPE: "VANILLA"
+      OPS: "BlzingPeacck"
+      ENABLE_WHITELIST: "TRUE"
+      ENFORCE_WHITELIST: "TRUE"
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+volumes:
+  minecraftdata:
+    external: true
+
 networks:
   app-network:
     driver: bridge
