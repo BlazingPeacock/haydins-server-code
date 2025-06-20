@@ -35,7 +35,7 @@ services:
       - /home/Minecraft/mods:/mods
     ports:
       - 25565:25565
-    environments:
+    environment:
       EULA: "TRUE"
       TYPE: "VANILLA"
       OPS: "BlzingPeacck"
